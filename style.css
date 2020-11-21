@@ -1,25 +1,73 @@
- 
-body {background-color: #f8be56; font-size: 30px; font-family: 'Bowlby One SC', cursive;}
-svg {position: absolute; left: 0; top: 0; width: 100%; height: 100%;}
- 
-.textt {fill: none; stroke: #fff; stroke-width: 3px; stroke-dasharray: 7% 28%; animation: stroke 4s infinite linear;}
-.textt:nth-child(1) {stroke:#fff176; stroke-dasharray: 7%;}
-.textt:nth-child(2) {stroke:#FEC8D8; stroke-dasharray: 14%;}
-.textt:nth-child(3) {stroke:#00b0ff; stroke-dasharray: 21%;}
-.textt:nth-child(4) {stroke:#651fff; stroke-dasharray: 28%;}
-.textt:nth-child(5) {stroke:#dea5a4; stroke-dasharray: 35%;}
-      .wrap {
-        padding:0px 0;
-        position:absolute;
-        width: 300px;
-        height: 300px;
-        left:1%;top:30%;
-      }
-   
-@keyframes stroke {
-  50% {
-    stroke-dashoffset: 35%;
-    stroke-dasharray: 0 30.5%;
-  }
+.maincontainer {
+  width: 960px;
+  length:400px;
+  margin-top: 30px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+.link-spanner{
+  position:absolute; 
+  width: 160px;
+  height: 100px;
+  top:0;
+  left: 0;
+  z-index: 1;
+}
+
+nav li {
+  font-family: 'Hind', serif;
+  display: inline;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+nav {
+  background-color: white;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+
+.titleblock {
+  border: solid #ffcccc 8px;
+  padding: 16px;
+  font-family: 'Lora', serif;
+  font-size: 38px;
+  width: 160px;
+  text-align: center;
+  margin: 25px;
+  color: gray;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  font-weight: bold;
+  position: relative;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffcccc;
+}
+
+body {
+  background-image: url("http://us.123rf.com/450wm/homodans/homodans1511/homodans151100018/47845946-doodle-flower-pattern-black-and-white.jpg?ver=6")
+}
+
+.abouttext {
+  font-family: 'Lora', serif;
+  font-size: 15px;
+  width: 800px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  line-height: 20px;
   
+}
